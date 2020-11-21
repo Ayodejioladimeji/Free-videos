@@ -1,0 +1,198 @@
+
+.Searchbar{
+    height:60px;
+}
+
+.navbar{
+    background:#060a2c;
+}
+
+  .sidebar-toggle {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    color:white;
+    transition:all 0.3s linear;
+    cursor: pointer;
+    outline:none;
+    margin-top:-10px;
+    text-shadow:2px 2px white!important;
+  }
+
+  .free{
+      /* margin-left:20px; */
+      color:red!important;
+      font-weight:bold;
+      font-family:'Courier New', Courier, monospace;
+      font-size:23px!important;
+  }
+
+  .logo-brand{
+      margin-left:30px;
+      color:red!important;
+      font-weight:bold;
+      font-family:'Courier New', Courier, monospace;
+      font-size:23px!important;
+  }
+
+  .logo-brand span{
+      font-size:18px;
+      color:white;
+  }
+
+  .mr-auto{
+      display:flex;
+      justify-content: center;
+      color:white;
+      margin-left:50px;
+  }
+
+  .nav-link{
+      color:white!important;
+  }
+
+ .input-div input{
+    width:400px;
+    padding:3px;
+    outline:none;  
+    border:1px solid #0b1355;
+    border-radius:2px; 
+    color:#0b1355;  
+ }
+
+ .input-div input::-webkit-input-placeholder{
+     color:red;
+     font-size:13px;
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+ }
+
+
+ /* ============================= */
+ /* THE SECTION OF THE YOUTUBE */
+ .Youtube{
+     height:100vh;
+     background:#0b1355;
+ }
+
+ .display{
+     padding:20px 0 0 0;
+     height:92vh;
+ }
+
+
+ /* ======================= */
+ /* THE SECTION OF THE VIDEO DETAILS */
+ .play{
+    height:660px;
+ }
+
+ .player{
+     height:550px;
+     width:100%;
+
+ }
+
+ .information{
+     margin-left:20px;
+     margin-bottom:1px solid #00ff00;
+ }
+
+ .information h2{
+     font-size:19px;
+     color:white;
+     font-family:arial;
+     text-transform:capitalize;
+     padding:15px 0 5px 0;
+ }
+
+ .information p{
+     color:#00ff00;
+ }
+
+ .information button{
+     background:red;
+     color:white;
+     font-weight:bold;
+     padding:10px 18px;
+     border:none;
+     outline:none;
+     display:flex;
+     float:right;
+     margin-right:18px;
+ }
+
+
+ /* ========================= */
+ /* THE SECTION OF THE VIDEO LISTS */
+ .list{
+     padding:20px 10px;
+     overflow:auto;
+     height:92vh;
+ }
+ .list::-webkit-scrollbar{
+     background:#050614;
+ }
+
+ .list::-webkit-scrollbar-button{
+     background:red;
+     color:white;
+ }
+
+ .list::-webkit-scrollbar-thumb{
+     background:blue;
+     border-radius:125px;
+     height:30px;
+ }
+
+ .list-body{
+     padding-right:5px;
+     overflow:auto;
+     height:146px;
+     margin-top:5px;
+ }
+
+ .list-margin{
+     margin-left:15px;
+ }
+
+ .my-image{
+     cursor: pointer;
+     width:60%;
+ }
+
+ .list-name{
+     font-size:12px;
+     color:white;
+     font-family:inherit;
+     cursor: pointer;
+ }
+
+ .list-desc{
+     color:rgb(194, 189, 189);
+     font-size: 12px;
+ }
+
+ .list-view{
+     color:rgb(194, 189, 189);
+     font-size:12px;
+ }
+
+
+ /* THE SECTION OF THE VIDEO ITEMS */
+ 
+ .media{
+    margin-bottom:15px;
+    /* background:#0b1355; */
+    box-shadow:0px 1px rgba(0,0,0,0.1);
+    /* height:140px; */
+}
+
+.media::-webkit-scrollbar{
+    display:none;
+}
+
+
+
+
+
+

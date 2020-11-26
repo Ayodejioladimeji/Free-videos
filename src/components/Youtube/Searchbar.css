@@ -76,7 +76,8 @@
 
  .display{
      padding:20px 0 0 0;
-     height:92vh;
+     height:100vh;
+     background:#0b1355;
  }
 
 
@@ -84,6 +85,7 @@
  /* THE SECTION OF THE VIDEO DETAILS */
  .play{
     height:660px;
+    background:#0b1355;
  }
 
  .player{
@@ -95,6 +97,7 @@
  .information{
      margin-left:20px;
      margin-bottom:1px solid #00ff00;
+     background:#0b1355;
  }
 
  .information h2{
@@ -127,7 +130,8 @@
  .list{
      padding:20px 10px;
      overflow:auto;
-     height:92vh;
+     height:100vh;
+     background:#0b1355;
  }
  .list::-webkit-scrollbar{
      background:#050614;
@@ -184,7 +188,6 @@
     margin-bottom:15px;
     /* background:#0b1355; */
     box-shadow:0px 1px rgba(0,0,0,0.1);
-    /* height:140px; */
 }
 
 .media::-webkit-scrollbar{
